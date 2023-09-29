@@ -1,0 +1,260 @@
+body
+{
+    font-family: 'DroidArabicKufiRegular';
+    direction:rtl;
+    padding:0;
+    margin:0;
+    height:800px;
+    overflow:scroll
+}
+
+header .logo img
+{
+height:90px;
+width:90px;
+background-color:#318DDD;
+cursor:pointer;
+
+}
+.logo
+{
+    padding:5px;
+    width:20%;
+    float:right;
+    margin-right:10px
+}
+.nav
+{
+    float:left;
+    position:relative;
+    top:31px;
+    left:20px;
+    color:#fff;
+
+
+}
+.nav ul
+{
+    list-style-type:none;
+    margin-top:0;
+}
+.nav ul li
+{
+    display:inline;
+    color:#fff;
+    padding:0 8px 0 8px
+}
+.nav ul li:hover
+{
+    border-bottom:2px solid #000;
+    color:#000;
+    cursor:pointer
+
+}
+header
+{
+    background-color:#318DDD;
+    height:100px;
+    width:auto;
+
+}
+.menu
+{
+    background-color:#318DDD;
+    margin:5px 8px 0 0;
+    width:200px;
+    border-radius:10px;
+}
+.content .menu .main-menu
+{
+    display:block;
+    width:100%;
+    border-bottom:1px solid #000;
+    border-top:#000;
+    border-radius:10px 10px 0 0;
+    text-align:center;
+    background-color:#01ADBB;
+}
+.content .menu .list
+{
+    margin-top:5px;
+    position:relative;
+    right:-10px;
+    bottom:5px;
+}
+.content .menu .list li
+{
+    width:fit-content
+}
+.content .menu .list li:hover
+{
+  cursor:pointer;
+  border-bottom:2px solid #000;
+
+}
+.content .any-product
+{
+    background-color:#318DDD;
+    width:200px;
+    margin-right:8px;
+    border-radius:8px;
+    height:335px;
+}
+.content .any-product .steve,.container .content .icons span
+{
+
+    display:block;
+    width:100%;
+    border-bottom:1px solid #000;
+    border-top:#000;
+    border-radius:10px 0 0 0;
+    text-align:center;
+    background-color:#01ADBB;
+    height:35px; border-radius:10px 10px 0 0;
+
+}
+.content .any-product img
+{
+    width:183px;
+    height:283px;
+    display:block;
+    position:relative;
+    right:8px;
+    top:12px;
+}
+.container .content .icons
+{
+    width:200px;
+    margin:5px 8px 0 0;
+}
+.container .content .icons .social-media
+{
+    background-color:#318DDD;
+    width:200px;
+    text-align:center;
+    padding:10px 0;
+    border-radius:0 0 5px 5px
+
+}
+.fa
+{
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:5px
+}
+.fa-facebook
+{
+  background: #000;
+  color: white;
+}
+.fa-twitter
+{
+  background: #000;
+  color: white;
+}
+.fa-instagram
+{
+    background: #000;
+    color: white;
+}
+.pro
+{
+    display:block;
+    width:100%;
+    border-bottom:1px solid #000;
+    border-top:#000;
+    border-radius:10px 10px 0 0;
+    text-align:center;
+    background-color:#01ADBB;
+}
+.our-products .products
+{
+    background-color:#318DDD;
+    border:1px solid #000;
+    position:relative;
+    float:left;
+    top:-654px;
+    right:-12px;
+    width:1110px;
+    height:652px;
+    border-radius:5px;
+    overflow:hidden;
+}
+.container .content .products img
+{
+    height:300px;
+    width:200px;
+    margin:10px 15px 15px 0;
+    border-radius:5px;
+    cursor:pointer
+}
+.container .content .products .photo
+{
+    margin-top:-4px
+}
+.container .content .products .pict
+{
+    margin-top:-27px
+}
+::-webkit-scrollbar
+{
+    display:none;
+}
+.footer
+{
+    background-color:#318DDD;
+    color:#000;
+    padding:10px;
+    margin:10px;
+    width:100%;
+    margin-right:0;
+    overflow:hidden;
+    position:relative;
+    top:-630px;
+}
+.footer ul li
+{
+    width:fit-content;
+}
+.footer .box
+{
+    width:33.33333333333333333%;
+    float:right;
+}
+.footer .box ul
+{
+    list-style-type:none;
+    padding:0;
+}
+.footer .box h3
+{
+    border-bottom:2px solid #000;
+    width:fit-content
+}
+.footer ul li:hover
+{
+    color:#FFF;
+    cursor: pointer;
+    border-bottom:1px solid #FFF;
+}
+.SourCecode
+{
+    text-align:center;
+    width:100%;
+    display:inline-block;
+    background-color:#000;
+    color:#fff;
+    padding:10px;
+    margin:0;
+    position:absolute;
+    top:1050px
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
